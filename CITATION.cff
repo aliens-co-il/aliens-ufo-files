@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "The US Government UFO Files (war.gov/ufo), analyzed"
+abstract: "Every record the US Department of War released on war.gov/ufo: documents, photographs, videos and audio about unidentified anomalous phenomena (UAP), with the agency, incident date and place, release date, page count, redaction status, the official source link, an archived copy, and a plain-English summary and story page from Aliens magazine for each record. Updated whenever a new release appears."
+authors:
+  - name: "ALIENS magazine (aliens.co.il)"
+    website: "https://aliens.co.il/en"
+    email: "press@aliens.co.il"
+  - given-names: Dan
+    family-names: Ilan
+    affiliation: "ALIENS magazine"
+version: "release-07-20261023"
+date-released: "2026-10-30"
+license: CC-BY-4.0
+url: "https://aliens.co.il/en/open-data"
+repository: "https://github.com/aliens-co-il/aliens-ufo-files"
+keywords:
+  - "UFO"
+  - "UAP"
+  - "unidentified anomalous phenomena"
+  - "war.gov"
+  - "Department of War"
+  - "Pentagon"
+  - "AARO"
+  - "FBI"
+  - "NASA"
+  - "CIA"
+  - "declassified records"
+  - "government documents"
+  - "open data"

@@ -1,0 +1,45 @@
+{
+  "upload_type": "dataset",
+  "title": "The US Government UFO Files (war.gov/ufo), analyzed",
+  "creators": [
+    {
+      "name": "ALIENS magazine (aliens.co.il)"
+    },
+    {
+      "name": "Ilan, Dan",
+      "affiliation": "ALIENS magazine"
+    }
+  ],
+  "description": "<p>Every record the US Department of War has released on <a href=\"https://www.war.gov/ufo/\">war.gov/ufo</a>: documents, photographs, videos and audio about unidentified anomalous phenomena (UAP), as one table (CSV and JSON). Each record has its agency, incident date and place, release date, page count, redaction status, the official file, an Internet Archive copy, and a plain-English summary and story page from ALIENS magazine.</p>\n<p>Version release-07-20261023: 479 records from 7 releases (8 May 2026 to 23 Oct 2026); 280 of them redacted; 479 with an English summary.</p>\n<p>Records per release:</p><ul><li>Release 1, 8 May 2026: 159 records (106 redacted)</li><li>Release 2, 22 May 2026: 64 records (54 redacted)</li><li>Release 3, 12 Jun 2026: 72 records (12 redacted)</li><li>Release 4, 10 Jul 2026: 40 records (19 redacted)</li><li>Release 5, 7 Aug 2026: 41 records (14 redacted)</li><li>Release 6, 18 Sep 2026: 75 records (67 redacted)</li><li>Release 7, 23 Oct 2026: 28 records (8 redacted)</li></ul>\n<p>Records per agency:</p><ul><li>Department of War: 283 (209 redacted)</li><li>FBI: 105 (54 redacted)</li><li>NASA: 40 (1 redacted)</li><li>CIA: 23 (3 redacted)</li><li>Department of State: 9 (0 redacted)</li><li>Local Law Enforcement: 8 (7 redacted)</li><li>Department of Energy: 5 (4 redacted)</li><li>Executive Office of the President: 2 (0 redacted)</li><li>U.S. Government: 2 (1 redacted)</li><li>Intelligence Community Agency: 1 (1 redacted)</li><li>Office of the Director of National Intelligence: 1 (0 redacted)</li></ul>\n<p><strong>Method.</strong> The official fields are copied from war.gov's record list as it lists them (US short dates turned into ISO dates). The summaries and stories are written with AI from war.gov's description of each record and, for documents, the PDF text; an editing pass corrects each draft against that source material and a second model reviews it; English texts are AI translations of the Hebrew. No person reviews every record line by line: check a summary against its source_url before relying on it. Fields and full method: README.md.</p>\n<p>Live copy, updated after each release: <a href=\"https://aliens.co.il/en/open-data\">https://aliens.co.il/en/open-data</a>. Credit: Data: ALIENS magazine (aliens.co.il), CC BY 4.0. Records: US Department of War, war.gov/ufo.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "UFO",
+    "UAP",
+    "unidentified anomalous phenomena",
+    "war.gov",
+    "Department of War",
+    "Pentagon",
+    "AARO",
+    "FBI",
+    "NASA",
+    "CIA",
+    "declassified records",
+    "government documents",
+    "open data"
+  ],
+  "language": "eng",
+  "version": "release-07-20261023",
+  "publication_date": "2026-10-30",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://aliens.co.il/en/open-data",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://www.war.gov/ufo/"
+    }
+  ]
+}
