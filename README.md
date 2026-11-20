@@ -2,11 +2,13 @@
 
 Every record the US Department of War has released on [war.gov/ufo](https://www.war.gov/ufo/): documents, photographs, videos and audio about unidentified anomalous phenomena (UAP), as one table. Each record has its agency, incident date and place, release date, page count, redaction status, the official file, an archived copy, and a plain-English summary and story page from [ALIENS magazine](https://aliens.co.il/en).
 
-**Version `release-07-20261023`**: 479 records from 7 releases (8 May 2026 to 23 Oct 2026), 479 with an English summary. Built 30 Oct 2026.
+**Version `release-08-20261120`**: 522 records from 8 releases (8 May 2026 to 20 Nov 2026), 522 with an English summary. Built 20 Nov 2026.
 
 Home page: https://aliens.co.il/en/open-data · Licence: CC BY 4.0 · Publisher: ALIENS magazine (aliens.co.il) · Editor: Dan Ilan
 
-This copy is updated automatically after each war.gov release. The live files are always at https://aliens.co.il/open-data/ufo-files.csv and https://aliens.co.il/open-data/ufo-files.json. Also on: [GitHub](https://github.com/aliens-co-il/aliens-ufo-files).
+This copy is updated automatically after each war.gov release. The live files are always at https://aliens.co.il/open-data/ufo-files.csv and https://aliens.co.il/open-data/ufo-files.json. Also on: [Zenodo](https://doi.org/10.5281/zenodo.23811343) (DOI 10.5281/zenodo.23811343, every version) · [GitHub](https://github.com/aliens-co-il/aliens-ufo-files) · [Kaggle](https://www.kaggle.com/datasets/alienscoil/us-government-ufo-files) · [Hugging Face](https://huggingface.co/datasets/aliens-co-il/aliens-ufo-files).
+
+Search the full text of every file at https://aliens.co.il/en/official/search, or from code with the free JSON API (no key, CORS open): https://aliens.co.il/api/v1/ufo-files?q=orb (docs: https://aliens.co.il/en/open-data#api).
 
 ## Files
 
@@ -50,16 +52,17 @@ This copy is updated automatically after each war.gov release. The live files ar
 | 5 | 7 Aug 2026 | 41 | 14 (34%) |
 | 6 | 18 Sep 2026 | 75 | 67 (89%) |
 | 7 | 23 Oct 2026 | 28 | 8 (29%) |
-| | **All** | **479** | **280 (58%)** |
+| 8 | 20 Nov 2026 | 43 | 3 (7%) |
+| | **All** | **522** | **283 (54%)** |
 
 ### Per agency
 
 | Agency | Records | Redacted |
 |---|---|---|
-| Department of War | 283 | 209 (74%) |
+| Department of War | 320 | 212 (66%) |
 | FBI | 105 | 54 (51%) |
 | NASA | 40 | 1 (3%) |
-| CIA | 23 | 3 (13%) |
+| CIA | 29 | 3 (10%) |
 | Department of State | 9 | 0 (0%) |
 | Local Law Enforcement | 8 | 7 (88%) |
 | Department of Energy | 5 | 4 (80%) |
@@ -72,8 +75,8 @@ This copy is updated automatically after each war.gov release. The live files ar
 
 | Type | Records |
 |---|---|
-| document | 299 |
-| video | 134 |
+| document | 339 |
+| video | 137 |
 | photograph | 30 |
 | audio | 16 |
 
@@ -89,7 +92,7 @@ This copy is updated automatically after each war.gov release. The live files ar
 ## How to cite
 
 ```
-ALIENS magazine (aliens.co.il); Ilan, Dan (ed.). (2026). The US Government UFO Files (war.gov/ufo), analyzed (Version release-07-20261023) [Data set]. https://aliens.co.il/en/open-data
+ALIENS magazine (aliens.co.il); Ilan, Dan (ed.). (2026). The US Government UFO Files (war.gov/ufo), analyzed (Version release-08-20261120) [Data set]. https://doi.org/10.5281/zenodo.23811343
 ```
 
 Short credit: *Data: ALIENS magazine (aliens.co.il), CC BY 4.0. Records: US Department of War, war.gov/ufo.*
@@ -617,3 +620,51 @@ Each record's page on aliens.co.il (English where it exists, otherwise Hebrew), 
 | [DOW-UAP-D180](https://aliens.co.il/en/official/dow-uap-d180-final-personnel-record-for-mccoy-howard-m-u-s-air-force-1954) | DOW-UAP-D180, Final Personnel Record for McCoy, Howard M., U.S. Air Force, 1954 | Department of War | document |
 | [EOP-UAP-D002](https://aliens.co.il/en/official/eop-uap-d002-memorandum-on-interagency-coordination-for-the-recovery-of-foreign-) | EOP-UAP-D002, Memorandum on Interagency Coordination for the Recovery of Foreign Materiel, May 1963 | Executive Office of the President | document |
 | [USG-UAP-D002](https://aliens.co.il/en/official/usg-uap-d002-interagency-correspondence-concerning-space-fragments-1962-1964) | USG-UAP-D002, Interagency Correspondence Concerning Space Fragments, 1962-1964 | U.S. Government | document |
+
+### Release 8: 20 Nov 2026 (43 records)
+
+| Record | Title | Agency | Type |
+|---|---|---|---|
+| [CIA-UAP-D027](https://aliens.co.il/en/official/cia-uap-d027-office-of-scientific-intelligence-briefing-on-flying-saucers-1952) | CIA-UAP-D027, Office of Scientific Intelligence Briefing on “Flying Saucers,” 1952 | CIA | document |
+| [CIA-UAP-D029](https://aliens.co.il/en/official/cia-uap-d029-official-diary-entry-on-flying-saucers-1952) | CIA-UAP-D029, Official Diary Entry on “Flying Saucers,” 1952 | CIA | document |
+| [DOW-UAP-D165](https://aliens.co.il/en/official/dow-uap-d165-unresolved-radar-detection-north-america-2023) | DOW-UAP-D165, Unresolved Radar Detection, North America, 2023 | Department of War | document |
+| [DOW-UAP-D172](https://aliens.co.il/en/official/dow-uap-d172-baass-ten-month-report-july-2009) | DOW-UAP-D172, BAASS Ten-Month Report, July 2009 | Department of War | document |
+| [DOW-UAP-D190](https://aliens.co.il/en/official/dow-uap-d190-air-intelligence-information-report-massachusetts-1957) | DOW-UAP-D190, Air Intelligence Information Report, Massachusetts, 1957 | Department of War | document |
+| [DOW-UAP-D197](https://aliens.co.il/en/official/dow-uap-d197-air-intelligence-information-report-michigan-1957) | DOW-UAP-D197, Air Intelligence Information Report, Michigan, 1957 | Department of War | document |
+| [CIA-UAP-D024](https://aliens.co.il/en/official/cia-uap-d024-approval-in-principle-research-concerned-with-ufos-1952) | CIA-UAP-D024, Approval in Principle, Research Concerned with UFOs, 1952 | CIA | document |
+| [CIA-UAP-D025](https://aliens.co.il/en/official/cia-uap-d025-proposal-to-consider-psychological-warfare-implications-of-ufo-rela) | CIA-UAP-D025, Proposal to Consider Psychological Warfare Implications of UFO-Related Issues, 1952 | CIA | document |
+| [CIA-UAP-D026](https://aliens.co.il/en/official/cia-uap-d026-summary-assessment-of-flying-saucers-1952) | CIA-UAP-D026, Summary Assessment of “Flying Saucers,” 1952 | CIA | document |
+| [CIA-UAP-D028](https://aliens.co.il/en/official/cia-uap-d028-assessment-of-national-security-issues-relating-to-flying-saucers-1) | CIA-UAP-D028, Assessment of National Security Issues Relating to “Flying Saucers,” 1952 | CIA | document |
+| [DOW-UAP-D182](https://aliens.co.il/en/official/dow-uap-d182-aawsap-statement-of-work-august-2008) | DOW-UAP-D182, AAWSAP Statement of Work, August 2008 | Department of War | document |
+| [DOW-UAP-D183](https://aliens.co.il/en/official/dow-uap-d183-correspondence-from-senator-harry-reid-june-2009) | DOW-UAP-D183-Correspondence from Senator Harry Reid, June 2009 | Department of War | document |
+| [DOW-UAP-D184](https://aliens.co.il/en/official/dow-uap-d184-aawsap-talking-paper-for-senator-reid-engagement-may-2009) | DOW-UAP-D184, AAWSAP Talking Paper for Senator Reid Engagement, May 2009 | Department of War | document |
+| [DOW-UAP-D185](https://aliens.co.il/en/official/dow-uap-d185-review-of-aawsap-special-access-program-request-november-2009) | DOW-UAP-D185, Review of AAWSAP Special Access Program Request, November 2009 | Department of War | document |
+| [DOW-UAP-D186](https://aliens.co.il/en/official/dow-uap-d186-dia-information-memorandum-on-aatip-aawsap-december-2010) | DOW-UAP-D186, DIA Information Memorandum on AATIP (AAWSAP), December 2010 | Department of War | document |
+| [DOW-UAP-D187](https://aliens.co.il/en/official/dow-uap-d187-dia-talking-paper-for-senator-reid-engagement-january-2009) | DOW-UAP-D187, DIA Talking Paper for Senator Reid Engagement, January 2009 | Department of War | document |
+| [DOW-UAP-D188](https://aliens.co.il/en/official/dow-uap-d188-review-of-aawsap-contract-deliverables-october-2009) | DOW-UAP-D188, Review of AAWSAP Contract Deliverables October 2009 | Department of War | document |
+| [DOW-UAP-D189](https://aliens.co.il/en/official/dow-uap-d189-air-intelligence-information-report-virginia-1957) | DOW-UAP-D189, Air Intelligence Information Report, Virginia, 1957 | Department of War | document |
+| [DOW-UAP-D191](https://aliens.co.il/en/official/dow-uap-d191-air-intelligence-information-report-texas-1957) | DOW-UAP-D191, Air Intelligence Information Report, Texas, 1957 | Department of War | document |
+| [DOW-UAP-D192](https://aliens.co.il/en/official/dow-uap-d192-air-intelligence-information-report-nebraska-1957) | DOW-UAP-D192, Air Intelligence Information Report, Nebraska, 1957 | Department of War | document |
+| [DOW-UAP-D193](https://aliens.co.il/en/official/dow-uap-d193-air-intelligence-information-report-new-mexico-1957) | DOW-UAP-D193, Air Intelligence Information Report, New Mexico, 1957 | Department of War | document |
+| [DOW-UAP-D194](https://aliens.co.il/en/official/dow-uap-d194-air-intelligence-information-report-new-mexico-1957) | DOW-UAP-D194, Air Intelligence Information Report, New Mexico, 1957 | Department of War | document |
+| [DOW-UAP-D195](https://aliens.co.il/en/official/dow-uap-d195-air-intelligence-information-report-new-mexico-1957) | DOW-UAP-D195, Air Intelligence Information Report, New Mexico, 1957 | Department of War | document |
+| [DOW-UAP-D196](https://aliens.co.il/en/official/dow-uap-d196-air-intelligence-information-report-washington-1957) | DOW-UAP-D196, Air Intelligence Information Report, Washington, 1957 | Department of War | document |
+| [DOW-UAP-D198](https://aliens.co.il/en/official/dow-uap-d198-air-intelligence-information-report-japan-1957) | DOW-UAP-D198, Air Intelligence Information Report, Japan, 1957 | Department of War | document |
+| [DOW-UAP-D199](https://aliens.co.il/en/official/dow-uap-d199-air-intelligence-information-report-iran-1957) | DOW-UAP-D199, Air Intelligence Information Report, Iran, 1957 | Department of War | document |
+| [DOW-UAP-D200](https://aliens.co.il/en/official/dow-uap-d200-air-intelligence-information-report-peru-1957) | DOW-UAP-D200, Air Intelligence Information Report, Peru, 1957 | Department of War | document |
+| [DOW-UAP-D201](https://aliens.co.il/en/official/dow-uap-d201-air-intelligence-information-report-iran-1957) | DOW-UAP-D201, Air Intelligence Information Report, Iran, 1957 | Department of War | document |
+| [DOW-UAP-D202](https://aliens.co.il/en/official/dow-uap-d202-air-intelligence-information-report-peru-1957) | DOW-UAP-D202, Air Intelligence Information Report, Peru, 1957 | Department of War | document |
+| [DOW-UAP-D203](https://aliens.co.il/en/official/dow-uap-d203-air-intelligence-information-report-california-1957) | DOW-UAP-D203, Air Intelligence Information Report, California, 1957 | Department of War | document |
+| [DOW-UAP-D204](https://aliens.co.il/en/official/dow-uap-d204-air-intelligence-information-report-virginia-1957) | DOW-UAP-D204, Air Intelligence Information Report, Virginia, 1957 | Department of War | document |
+| [DOW-UAP-D205](https://aliens.co.il/en/official/dow-uap-d205-air-intelligence-information-report-japan-1956) | DOW-UAP-D205, Air Intelligence Information Report, Japan, 1956 | Department of War | document |
+| [DOW-UAP-D206](https://aliens.co.il/en/official/dow-uap-d206-unresolved-uap-report-california-1953) | DOW-UAP-D206, Unresolved UAP Report, California, 1953 | Department of War | document |
+| [DOW-UAP-D207](https://aliens.co.il/en/official/dow-uap-d207-unresolved-uap-report-california-1956) | DOW-UAP-D207, Unresolved UAP Report, California, 1956 | Department of War | document |
+| [DOW-UAP-D208](https://aliens.co.il/en/official/dow-uap-d208-unresolved-uap-report-california-1965) | DOW-UAP-D208, Unresolved UAP Report, California, 1965 | Department of War | document |
+| [DOW-UAP-D209](https://aliens.co.il/en/official/dow-uap-d209-unresolved-uap-report-california-1955) | DOW-UAP-D209, Unresolved UAP Report, California, 1955 | Department of War | document |
+| [DOW-UAP-D210](https://aliens.co.il/en/official/dow-uap-d210-unresolved-uap-report-california-1957) | DOW-UAP-D210, Unresolved UAP Report, California, 1957 | Department of War | document |
+| [DOW-UAP-D211](https://aliens.co.il/en/official/dow-uap-d211-unresolved-uap-report-california-1956) | DOW-UAP-D211, Unresolved UAP Report, California, 1956 | Department of War | document |
+| [DOW-UAP-D212](https://aliens.co.il/en/official/dow-uap-d212-unresolved-uap-report-california-1966) | DOW-UAP-D212, Unresolved UAP Report, California, 1966 | Department of War | document |
+| [DOW-UAP-D213](https://aliens.co.il/en/official/dow-uap-d213-unresolved-uap-report-california-1949) | DOW-UAP-D213, Unresolved UAP Report, California, 1949 | Department of War | document |
+| [DOW-UAP-PR166](https://aliens.co.il/en/official/dow-uap-pr166-unresolved-uap-report-middle-east-2020) | DOW-UAP-PR166, Unresolved UAP Report, Middle East, 2020 | Department of War | video |
+| [DOW-UAP-PR168](https://aliens.co.il/en/official/dow-uap-pr168-unresolved-uap-report-middle-east-2026) | DOW-UAP-PR168, Unresolved UAP Report, Middle East, 2026 | Department of War | video |
+| [DOW-UAP-PR169](https://aliens.co.il/en/official/dow-uap-pr169-unresolved-uap-report-middle-east-2023) | DOW-UAP-PR169, Unresolved UAP Report, Middle East, 2023 | Department of War | video |
